@@ -211,7 +211,9 @@
 	.page-title-area {
 		height: 300px;
 	}
-
+	.ruler-title-area {
+		height: 300px;
+	}
 	.page-title-content h2 {
 		font-size: 35px;
 	}
@@ -479,7 +481,9 @@
 	.page-title-area {
 		height: 300px;
 	}
-
+	.ruler-title-area {
+		height: 300px;
+	}
 	.page-title-content h2 {
 		font-size: 35px;
 	}

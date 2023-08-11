@@ -1759,6 +1759,16 @@ p:last-child {
 	height: 400px;
 }
 
+.ruler-title-area {
+	position: relative;
+	z-index: 1;
+	background-image: url("../img/shop/pcbruler/shopbanner.png");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
 .page-title-area::before {
 	content: "";
 	position: absolute;
@@ -1914,6 +1924,99 @@ p:last-child {
     box-shadow: 0px 10px 60px rgb(0, 0, 0, 0.2);
 }
 .about-image:before {
+    display: block;
+    content: '';
+    position: absolute;
+    right: -55px;
+    top: 55px;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url(../img/dot.svg);
+    background-repeat: repeat;
+}
+
+/**************************************
+ ** - 13 - Shop Page CSS
+ **************************************/
+.shop-area {
+	position: relative;
+	z-index: 1;
+}
+.shop-content {
+    margin-right: 60px;
+}
+.shop-content h6 {
+	color: #5e87eb;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+.shop-content h2 {
+	font-size: 33px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.shop-content-text p {
+	margin-bottom: 15px;
+}
+
+.shop-area .skills {
+	margin-top: 30px;
+}
+.shop-area .skills .skill-item {
+	margin-bottom: 25px;
+}
+
+.shop-area .skills .skill-item:last-child {
+	margin-bottom: 0px;
+}
+
+.shop-area .skills .skill-item h6 {
+	position: relative;
+	z-index: 4;
+	font-size: 15px;
+	letter-spacing: 0.7px;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.shop-area .skills .skill-item h6 em {
+	float: right;
+	font-size: 15px;
+	font-style: normal;
+}
+.shop-area .skills .skill-item .skill-progress {
+	position: relative;
+	height: 5px;
+	border-radius: 5px;
+	background: #f1f1fa;
+}
+.shop-area .skills .skill-item .skill-progress .progres {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 10%;
+	background-color: #5e87eb;
+	-webkit-transition: all 1.5s;
+	transition: all 1.5s;
+}
+
+.shop-image {
+    position: relative;
+    text-align: center;
+    margin-right: 40px;
+}
+.shop-image img {
+	border-radius: 3px;
+    box-shadow: 0px 10px 60px rgb(0, 0, 0, 0.2);
+}
+.shop-image:before {
     display: block;
     content: '';
     position: absolute;
